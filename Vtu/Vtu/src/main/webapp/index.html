@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>4th Sem</title>
+	<style>
+		#customers {
+			font-family: Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		#customers td,
+		#customers th {
+			border: 1px solid #ddd;
+			padding: 8px;
+		}
+
+		#customers tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		#customers tr:hover {
+			background-color: #ddd;
+		}
+
+		#customers th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: #04AA6D;
+			color: white;
+		}
+
+		.button {
+			background-color: #04AA6D;
+			/* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			-webkit-transition-duration: 0.4s;
+			/* Safari */
+			transition-duration: 0.4s;
+		}
+
+		.button2:hover {
+			box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+		}
+	</style>
+</head>
+
+<body>
+	<form action="FourthSem">
+		<table border="10px" id="customers">
+			<tr>
+				<th>Subject</th>
+				<th>Credits</th>
+				<th>Marks</th>
+				<!--<th>Total credits</th>-->
+			</tr>
+			<tr>
+				<td>CIP</td>
+				<td><input type="number" name="cs1" placeholder="enter credit"></td>
+				<td><input type="number" name="cm1" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>Unix</td>
+				<td><input type="number" name="cs2" placeholder="enter credit"></td>
+				<td><input type="number" name="cm2" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>Math</td>
+				<td><input type="number" name="cs3" placeholder="enter credit"></td>
+				<td><input type="number" name="cm3" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>DAA</td>
+				<td><input type="number" name="cs4" placeholder="enter credit"></td>
+				<td><input type="number" name="cm4" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>MES</td>
+				<td><input type="number" name="cs5" placeholder="enter credit"></td>
+				<td><input type="number" name="cm5" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>OS</td>
+				<td><input type="number" name="cs6" placeholder="enter credit"></td>
+				<td><input type="number" name="cm6" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>Bio</td>
+				<td><input type="number" name="cs7" placeholder="enter credit"></td>
+				<td><input type="number" name="cm7" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>Python Lab</td>
+				<td><input type="number" name="cs8" placeholder="enter credit"></td>
+				<td><input type="number" name="cm8" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>Internship</td>
+				<td><input type="number" name="cs9" placeholder="enter credit"></td>
+				<td><input type="number" name="cm9" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td>VHU</td>
+				<td><input type="number" name="cs10" placeholder="enter credit"></td>
+				<td><input type="number" name="cm10" placeholder="enter marks"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><input type="submit" value="submit" class="button button2"></td>
+			</tr>
+		</table>
+
+
+	</form>
+
+</body>
+
+</html>
